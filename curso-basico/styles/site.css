@@ -1,0 +1,163 @@
+body {
+    font-family: "Crimson Text", serif;
+    background-color: #F2FFFC;
+    text-align: justify;
+    font-size: 120%;
+    line-height: 1.5; /* espacamento entre as linhas */
+}
+.container{    
+    margin: 0 auto;
+    width: 80%;
+    padding: 40px 0;
+    padding-bottom: 60px 0;
+}
+main h1 {
+    font-size: 60px;
+    background-color: #851944;
+    color: #EAECFF;
+    text-align: center;
+    font-family: "Open Sans Condensed", sans-serif;
+    padding: 25px; /* espaco entre o conteudo e a borda */
+    margin: 0;
+    border-bottom: 10px solid #000;
+    text-transform: uppercase;
+}
+main div{
+    width: 750px;
+    margin: 0 auto;
+    padding: 30px,0;
+}
+main a {
+    color: #851944;
+    font: inherit;
+}
+p {
+    text-align: justify;
+    margin: 20px 0; /* distacia entre os elementos */
+}
+h1, h2 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-size: 30px;    
+}
+.experiencia{
+    clear: right;
+}
+.comunidade{
+    clear: left;
+}
+
+blockquote{
+    background-color: #D9E5E3;
+    padding: 20px;
+    border: 10px solid #E2CCCA;
+    width: 250px;
+    margin: 20px 40px;
+    box-sizing: border-box;    
+}
+.fiat{
+    float: right;
+}
+.petrobras{
+    float: left;
+}
+cite{
+    float: right;
+}
+aside {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 20px;
+    text-align: center;
+
+}
+.ultimo-link{
+    margin-bottom: 30px;
+}
+aside h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+aside a {
+    color: inherit;
+    font-size: 25px;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-decoration: none; /* retira o sublinhado de links */
+    padding: 20px;
+}
+.icones_sociais li{
+    display: inline-block;
+}
+.icones_sociais a{
+    width: 3px;
+    height: 3px;
+    display: inline-block;
+    text-indent: -99999px; /* retira o texto da imagem dos links */
+}
+.github{
+    background-image: url(../images/github.png);
+}
+.twitter{
+    background-image: url(../images/twitter.png);
+}
+.linkedin{
+    background-image: url(../images/linkedin.png);
+}
+nav a {
+    color: #F2FFFC;
+}
+footer {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 10px;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ul{
+    list-style-type:none;  /* marcacao dos itens de uma lista */
+}
+strong{
+    font-weight: bold;
+}
+em{
+    font-weight: italic;
+}
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.leia-mais{
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
+}
+aside, img{
+    float: right;    
+    border-left: 10px solid #000;
+    border-bottom: 10px solid #000;
+}
+aside{
+    clear: right;
+    width: 20%;
+    box-sizing: border-box;
+    position: relative;
+    top: 310px;
+
+}
+img{    
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+main{
+    float: left;
+    width: 80%;
+}
