@@ -1,0 +1,129 @@
+header{
+    background-color: black;
+    padding: 25px 0;
+}
+
+.cabecalho{
+    width: 75%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.cabecalho nav li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.cabecalho nav a{    
+    text-transform: uppercase;  
+    color: #ffffff86;
+    font-weight: bold;
+    font-size: xx-large;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.cabecalho nav a:hover{
+    border: 2px solid gray;
+    border-radius: 10px;    
+    color: #FFFFFF;
+}
+
+.cabecalho nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.banner{
+    width: 100%;
+}
+main{
+    padding: 30px;
+    text-align: center;
+}
+.h1-sobre{
+    font-size: 50px;
+    padding: 30px;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 51);
+}
+main p{
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+strong{
+    font-weight: bold;
+}
+em{
+    font-style: italic;
+
+}
+.missao{
+    font-size: 20px;   
+}
+.beneficios{
+    background-color: darkblue;
+    text-align: center;
+    position: relative;
+}
+.conteudo-beneficios{
+    float: left;
+    background-color: darkblue;
+    display: block;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 34px;
+}
+h2{
+    font-size: 50px;
+    color: beige;
+    margin-left: 33%;
+    text-align: auto;
+    display: block;
+    width: min-content;
+    justify-content: center;
+}
+.beneficios ul{
+    display: inline-block;
+    vertical-align: bottom;
+    width: 30%;
+    margin-right: 2%;
+    margin-top: 5%;
+    box-sizing: border-box;
+    }
+.beneficios li{
+    color: white;
+    padding-bottom: 20%;
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 10%;
+}
+.beneficios li:hover{
+    font-weight: bold;
+}
+
+.img-beneficios{
+    width: 60%;
+    height: 616px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+footer{
+    text-align: center;
+    background-image: url("../images/bg.jpg");
+    padding: 10px 0;
+    clear: both;
+    
+}
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px 0;
+}
