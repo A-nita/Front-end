@@ -1,4 +1,6 @@
-# HTML-CSS
+# Curso Formação Front-end
+
 Iniciando em HTML5 e CSS3
 
-Estudando as duas linguagens para fazer um site simples, proposto peloinstrutor do Alura, adcionando comentarios para futuras necessidades.
+Fazendo um site que utilize as principais funções do html e css que servirá como material de pesquisa para sies futuros.
+
