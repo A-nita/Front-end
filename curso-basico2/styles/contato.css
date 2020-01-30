@@ -1,37 +1,3 @@
-header{
-    background-color: black;
-    padding: 25px 0;
-}
-
-.cabecalho{
-    width: 75%;
-    position: relative;
-    margin: 0 auto;
-}
-
-.cabecalho nav li {display: inline; margin-right: 20px;}
-
-.cabecalho nav a{    
-    text-transform: uppercase;  
-    color: #ffffffe1;
-    font-weight: bold;
-    font-size: xx-large;
-    text-decoration: none;
-    padding: 10px;
-    border: 2px solid black;
-}
-.cabecalho nav a:hover{
-    border: 2px solid gray;
-    border-radius: 10px;    
-    color: #FFFFFF;
-}
-
-.cabecalho nav{
-    position: absolute;
-    top: 110px;
-    right: 0;
-}
-
 main {width: 75%; margin: 0 auto;}
 
 h2{
@@ -49,6 +15,18 @@ form{
 }
 form label, form legend{
     display: block;
+    footer{
+        text-align: center;
+        background-image: url("../images/bg.jpg");
+        padding: 10px 0;
+        clear: both;
+        
+    }
+    .copyright{
+        color: white;
+        font-size: 13px;
+        margin: 20px 0;
+    }
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -99,17 +77,4 @@ td, th{
     border:  1px solid black;
     padding: 8px 15px;
     font-size: 20px;
-}
-
-footer{
-    text-align: center;
-    background-image: url("../images/bg.jpg");
-    padding: 10px 0;
-    clear: both;
-    
-}
-.copyright{
-    color: white;
-    font-size: 13px;
-    margin: 20px 0;
 }
