@@ -1,6 +1,10 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 header{
     background-color: black;
-    padding: 25px 0;
+    padding: 25px 0;    
 }
 
 .cabecalho{
@@ -47,5 +51,25 @@ footer{
     color: white;
     font-size: 13px;
     margin: 20px 0;
+}
+@media screen  and (max-width: 480px){
+    h1{
+        text-align: center;
+        display: block;
+    }
+    .cabacalho nav{
+        position: static;
+    }
+    .lista-beneficios, .img-beneficios{
+        width: 100%;
+    }
+    .lista-beneficios{
+        padding-bottom: 2em;
+    }
+    .video{
+        width: 100%;
+        
+    }
+    
 }
 
